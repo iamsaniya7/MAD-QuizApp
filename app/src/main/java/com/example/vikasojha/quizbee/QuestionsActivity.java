@@ -19,7 +19,7 @@ public class QuestionsActivity extends AppCompatActivity {
     RadioGroup radio_g;
     RadioButton rb1,rb2,rb3,rb4;
 
-    String questions[] = {
+    String questions[] = {  "what is ur clg name?",
                             "Which method can be defined only once in a program?",
                             "Which of these is not a bitwise operator?",
                             "Which keyword is used by method to refer to the object that invoked it?",
@@ -31,8 +31,8 @@ public class QuestionsActivity extends AppCompatActivity {
                             "Which of these method of class String is used to compare two String objects for their equality?",
                             "An expression involving byte, int, & literal numbers is promoted to which of these?"
                          };
-    String answers[] = {"main method","<=","this","interface","public","import pkg.*","None of the mentioned","java","equals()","int"};
-    String opt[] = {
+    String answers[] = {"sgbit","main method","<=","this","interface","public","import pkg.*","None of the mentioned","java","equals()","int"};
+    String opt[] = {"kle","git","jain","sgbit",
                     "finalize method","main method","static method","private method",
                     "&","&=","|=","<=",
                     "import","this","catch","abstract",
